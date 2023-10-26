@@ -57,9 +57,9 @@ const buildPlayers = (players, type) => {
         if (players[i].type === type){
             let items = `
             <div class="player">
-                <img src="${players[0].image}" alt="">
-                <div class="name">${players[0].name}</div>
-                <div class="strength">${players[0].strength}</div>
+                <img src="${players[i].image}" alt="">
+                <div class="name">${players[i].name}</div>
+                <div class="strength">${players[i].strength}</div>
             </div>`
                     
 
