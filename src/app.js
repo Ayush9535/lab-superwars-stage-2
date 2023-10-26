@@ -55,11 +55,12 @@ const buildPlayers = (players, type) => {
 
     for (let i=0;i<players.length;i++){
         if (players[i].type === type){
-            let items = `<div class="player" alt="">
-                        <img src="${players[i].image}">
-                        <div class="name">${players[i].name}</div>
-                        <div class="strength">${players[i].strength}</div>
-                    </div>`
+            let items = `
+            <div class="player">
+                <img src="${players[0].image}" alt="">
+                <div class="name">${players[0].name}</div>
+                <div class="strength">${players[0].strength}</div>
+            </div>`
                     
 
             fragment += items;
